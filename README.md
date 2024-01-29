@@ -13,7 +13,7 @@ source("D:/UST.R")
 
 aa <- read.csv("D:/USTexampledata.csv")
 
-MST(aa[,1], aa[,2:5], aa[,6:ncol(aa)]) # Traits Covariates SNPs
+UST(aa[,1], aa[,2:5], aa[,6:ncol(aa)]) # Traits Covariates SNPs
 
 Output: Beta, standard error, t-statistic, p-value of quantitative trait locus (QTL), and p-value of variance quantitative trait locus (vQTL).
 
